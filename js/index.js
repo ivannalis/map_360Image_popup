@@ -45,7 +45,7 @@ map.on('click', function (e) {
             offset: [0, -15]
         })
         .setLngLat(feature.geometry.coordinates)
-        .setHTML(`<p>Location </p><h3 style="font-size:18px; font-weight:bold;">${feature.properties.Address}</h3><iframe width="569" height="383" allowfullscreen style="border-style:none;" src="http://127.0.0.1:5500/p360image.html?images=${IMG_FOLDER + feature.properties.img_loc}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
+        .setHTML(`<p>Location: </p><h3 style="font-size:18px; font-weight:bold;">${feature.properties.Address}</h3><iframe width="569" height="383" allowfullscreen style="border-style:none;" src="http://127.0.0.1:5500/p360image.html?images=${IMG_FOLDER + feature.properties.img_loc}"></iframe> `) // CHANGE THIS TO REFLECT THE PROPERTIES YOU WANT TO SHOW
         .setLngLat(feature.geometry.coordinates)
         .addTo(map);
 
