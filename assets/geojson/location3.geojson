@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "location3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Location ID": 8, "Name": "Daratsekip", "Address": "Sungai Raya Dalam Street, A28", "Open - Close": "Monday - Saturday: 8 AM - 3 PM", "location_id": 1, "img_loc": "location1.jpeg" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 109.331427669751235, -0.033297988611253 ] ] } },
+{ "type": "Feature", "properties": { "Location ID": 20, "Name": "Parittokaya", "Address": "Tanjung Sari Street, A28", "Open - Close": "Monday - Saturday: 8 AM - 3 PM", "location_id": null, "img_loc": "location2.jpeg" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 109.337634529709817, -0.049730097965607 ] ] } },
+{ "type": "Feature", "properties": { "Location ID": 22, "Name": "Perum Bali Indahsatu", "Address": "Tanjung Sari Street, A28", "Open - Close": "Monday - Saturday: 8 AM - 3 PM", "location_id": 3, "img_loc": "location3.jpeg" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 109.333623298876205, -0.052859033617437 ] ] } },
+{ "type": "Feature", "properties": { "Location ID": 25, "Name": "Perum Purnama Jaya", "Address": "Tanjung Sari Street, A28", "Open - Close": "Monday - Saturday: 8 AM - 3 PM", "location_id": 4, "img_loc": "location4.jpeg" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 109.322822368257732, -0.058556090391221 ] ] } },
+{ "type": "Feature", "properties": { "Location ID": 26, "Name": "Perum Sumatera Indah", "Address": "Tanjung Sari Street, A28", "Open - Close": "Monday - Saturday: 8 AM - 3 PM", "location_id": 5, "img_loc": "location5.jpeg" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 109.308933118068978, -0.05134812311735 ] ] } }
+]
+}
